@@ -56,13 +56,18 @@
 
 /* Form */
 
-	form {
+	form
+	{
+	
 		margin: 0 0 1.5em 0;
+	
 	}
 
 	form > :last-child
 	{
+	
 		margin-bottom: 0;
+	
 	}
 
 	form > .fields
@@ -85,7 +90,7 @@
 	
 	}
 
-	input[type="text"]
+	input[type="password"]
 	{
 
 		appearance: none;
@@ -97,21 +102,26 @@
 		padding: 0 1em;
 		text-decoration: none;
 		width: 100%;
+	
 	}
 
 
-		input[type="text"]:focus
-		{
-			border-color: #ff7496;
-		}
-
-
-
-
-
-	input[type="text"]
+	input[type="password"]:focus
 	{
+	
+		border-color: #43EAFE;
+	
+	}
+
+
+
+
+
+	input[type="password"]
+	{
+
 		height: 2.75em;
+	
 	}
 
 	input[type="submit"]
@@ -135,8 +145,8 @@
 	input[type="submit"]:hover
 	{
 			
-		border-color: #ff7496;	
-		color: #ff7496;
+		border-color: #43EAFE;	
+		color: #43EAFE;
 	
 	}
 
